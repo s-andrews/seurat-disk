@@ -1,6 +1,16 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+```
+NB: The only difference in this fork is that I've reduced the version 
+dependency of hdf5r to 1.0.0 which is the latest version we can install
+on the version of the hdf5r which ships with CentOS7.  I know this version
+works fine with Seurat, so I suspect the higher version isn't actually 
+needed in seurat-disk and I can get away with this without having to go
+chasing down a tree of library dependencies.  Time will tell...
+```
+
+
 # SeuratDisk v0.0.0.9015
 
 <!-- badges: start -->
